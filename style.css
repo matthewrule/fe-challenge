@@ -1,0 +1,27 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FF9A37;
+  font-family: 'SF Pro Display',Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.arrow{
+  
+}
+.nav{
+  width: 375px
+}
+
+.container{
+  display: inline-block;
+  text-align: left;
+  width: 80%;
+  margin: 10%;
+  padding: 0%;
+}
