@@ -24,50 +24,45 @@ h1{
   padding-left: 12%;
   padding-bottom: 0;
 }
-
-.top-nav{
-  background-color: #F9A837;
-  padding-top: 10px;
-  height: 60px;
+.search_bar{
+  background-color: white;
   width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px
+}
+#nav li{
+  display: inline;
+  list-style-type: none;
+  padding-right: 10px;
+}
+.top-nav{
+  display: center;
+  align-items: center;
+  width: 100%;
+  padding-left: 50px;
 }
 .nav-box{
   display: inline-block;
-  width: 15%;
-  text-align: center;
+  width: 100%;
   float: left;
   padding-top: 10px;
   margin: 5;
 }
-.nav-box1{
-  display: inline;
-  padding-top: 10px;
-  width: 50%;
-}
-.nav-box2{
-  display:inline-block;
-  width: 95%;
-  text-align: right;
-  vertical-align: top;
-  height: 100%;
-}
 
-.nav-box3{
+.eastbound_Line{
   display: inline-block;
   width: 100%;
-  padding-top: 1;
 }
 
-.nav-box4{
+.bus_numbers1{
   display: inline;
-  padding-left: 17px;
+  padding-left: 55px;
 }
-.nav-box5{
-  display: inline-block;
-  padding: 17px;
+.street_names1{
+  display: inline;
+  width: 50%;
 }
-
-
 #info ul{
   display: flex;
   align-items: center;
