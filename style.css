@@ -1,31 +1,85 @@
-<<<<<<< HEAD
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #FF9A37;
-  font-family: 'SF Pro Display',Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  left: 50%;
-  top: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-}
-.arrow{
-  
-}
-.nav{
-  width: 375px
+  background-color: #F9A837;
+  width: 375px;
+  font-family: 'SF Pro Display', 'SF Pro Text', Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
 }
 
 .container{
-  display: inline-block;
-  text-align: left;
-  width: 80%;
-  margin: 10%;
-  padding: 0%;
+  width: 375px;
+  position: relative;
 }
-=======
 
->>>>>>> 7a4c79ff941202dc1029502d0e909324914006f1
+h1{
+  display: inline;
+  color: White;
+  padding-top: 5px;
+  font-size: 16px;
+  padding-left: 12%;
+  padding-bottom: 0;
+}
+
+.top-nav{
+  background-color: #F9A837;
+  padding-top: 10px;
+  height: 60px;
+  width: 100%;
+}
+.nav-box{
+  display: inline-block;
+  width: 15%;
+  text-align: center;
+  float: left;
+  padding-top: 10px;
+  margin: 5;
+}
+.nav-box1{
+  display: inline;
+  padding-top: 10px;
+  width: 50%;
+}
+.nav-box2{
+  display:inline-block;
+  width: 95%;
+  text-align: right;
+  vertical-align: top;
+  height: 100%;
+}
+
+.nav-box3{
+  display: inline-block;
+  width: 100%;
+  padding-top: 1;
+}
+
+.nav-box4{
+  display: inline;
+  padding-left: 17px;
+}
+.nav-box5{
+  display: inline-block;
+  padding: 17px;
+}
+
+
+#info ul{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding:0;
+}
+
+
+.search{
+  display: flex;
+  align-items: center;
+
+}
