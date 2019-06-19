@@ -9,6 +9,10 @@ body {
   font-family: 'SF Pro Display', 'SF Pro Text', Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: lighter;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
 
 .container{
@@ -31,25 +35,24 @@ h2{
   font-weight: normal;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 5px;
 }
 
 h3{
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 5px;
   font-size: 12px;
   font-weight: bold;
   Color: Black;
   height: 30px;
   background-color: #fde0b7;
 }
-
-.search_bar{
+.search{
   background-color: white;
   width: 100%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 15px
 }
+
 .nav-box{
   float: left;
   display: inline-block;
@@ -61,10 +64,16 @@ h3{
   display: inline-block;
   float: right;
 }
-.bus-header{
+.bus-container{
+  background-color: #F9A837;
   display: flex;
   width: 100%;
   padding-left: 5px;
+}
+.bus-header{
+  display: flex;
+  width: 100%;
+  background-color: #F9A837
 }
 
 .eastbound_line{
@@ -108,21 +117,35 @@ h3{
   display: flex;
   float: left;
   padding-left: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   background-color: white;
+}
+.line{
+  display: inline-block;
+  float: left;
+  padding-left: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .street{
   float: left;
   font-size: 18px;
   display: inline-block;
   width: 55%;
-  color: #8F8E94;
+  color: #56555B;
   height: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-left: 15px;
   background-color: white;
+}
+.destination{
+  float: left;
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
 }
 
 .street-rr{
@@ -132,8 +155,8 @@ h3{
   width: 55%;
   color: Blue;
   height: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-left: 15px;
   background-color: white;
 }
@@ -144,26 +167,33 @@ h3{
   width: 55%;
   color: red;
   height: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-left: 15px;
   background-color: white;
 }
 .eta{
   display: inline-block;
   font-size: 18px;
-  color: #8F8E94;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  color: #56555B;
+  padding-top: 12px;
+  padding-bottom: 12px;
   width: 40%;
   background-color: white;
+}
+.frequency{
+  float: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 90px;
+  width: 20%;
 }
 .eta-oos{
   display: inline-block;
   font-size: 18px;
   color: Red;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   width: 40%;
   background-color: white;
 }
@@ -171,8 +201,8 @@ h3{
   display: inline-block;
   font-size: 18px;
   color: Blue;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-left: 10;
   width: 40%;
   background-color: white;
@@ -181,9 +211,18 @@ h3{
   width: 50%;
 }
 .arrow{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-right: 5px;
+}
+hr {
+    display: block;
+    background-color: white;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0em 0;
+    padding: 0;
 }
 .search{
   display: flex;
