@@ -154,7 +154,7 @@ input[type=to]{
   font-weight: 500;
   display: flex;
   float: left;
-  width: 45px;
+  width: 40px;
   padding-left: 5px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -190,19 +190,19 @@ input[type=to]{
   float: left;
   font-size: 18px;
   display: inline-block;
-  width: 55%;
+  width: 50%;
   color: Blue;
   height: 40px;
   padding-top: 12px;
   padding-bottom: 12px;
-  padding-left: 15px;
+  padding-left: 5px;
   background-color: white;
 }
 .street-oos{
   float: left;
   font-size: 18px;
   display: inline-block;
-  width: 65%;
+  width: 50%;
   color: red;
   height: 40px;
   padding-top: 12px;
@@ -214,9 +214,10 @@ input[type=to]{
   display: inline-block;
   font-size: 18px;
   color: #56555B;
+  padding-left: 5px;
   padding-top: 12px;
   padding-bottom: 12px;
-  width: 40%;
+  width: 48%;
   background-color: white;
 }
 .frequency{
@@ -230,10 +231,10 @@ input[type=to]{
   display: inline-block;
   font-size: 18px;
   color: Red;
-  padding-left: 35px;
+  padding-left: 5px;
   padding-top: 12px;
   padding-bottom: 12px;
-  width: 70%;
+  width: 48%;
   background-color: white;
 }
 .eta-rr{
@@ -242,8 +243,8 @@ input[type=to]{
   color: Blue;
   padding-top: 12px;
   padding-bottom: 12px;
-  padding-left: 10;
-  width: 40%;
+  padding-left: 7px;
+  width: 48%;
   background-color: white;
 }
 .arrivals{
